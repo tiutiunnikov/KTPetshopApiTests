@@ -48,6 +48,6 @@ PET_SCHEMA = {
         }
 
     },
-    "required": ["id", "name", "category", "photoUrls", "tags", "status"],
+    "required": ["id", "name", "photoUrls", "tags", "status"],
     "additionalProperties": False
 }
