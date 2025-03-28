@@ -74,7 +74,7 @@ class TestPetStore:
         with allure.step("Тестовый случай для проверки GET-запроса на инвентарь"):
             response = requests.get(f"{BASE_URL}/store/inventory")
 
-        with allure.step("Проверка, что статус-код ответа 200"):
+        with allure.step("Проверка, что статус-код ответа  200"):
             assert response.status_code == 200, f"Unexpected status code: {response.status_code}"
 
         with allure.step("Проверка, что ответ содержит данные инвентаря в нужном формате"):
