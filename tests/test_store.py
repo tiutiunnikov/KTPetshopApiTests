@@ -6,7 +6,7 @@ from .schemas.pet_schema import PET_SCHEMA
 
 BASE_URL = "http://5.181.109.28:9090/api/v3"
 
-@allure.feature("Pet")
+@allure.feature("PetStore")
 class TestPetStore:
     @allure.title("Размещение заказа")
     def test_add_pet_order(self):
